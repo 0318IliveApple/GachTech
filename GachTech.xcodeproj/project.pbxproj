@@ -14,6 +14,8 @@
 		60E3263B207DC71700D0B802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E32639207DC71700D0B802 /* LaunchScreen.storyboard */; };
 		60E32646207DC71700D0B802 /* GachTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E32645207DC71700D0B802 /* GachTechTests.swift */; };
 		60E32651207DC71700D0B802 /* GachTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E32650207DC71700D0B802 /* GachTechUITests.swift */; };
+		60E3265F207DC73700D0B802 /* GachaResources in Resources */ = {isa = PBXBuildFile; fileRef = 60E3265E207DC73600D0B802 /* GachaResources */; };
+		60E32661207DD3D500D0B802 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E32660207DD3D500D0B802 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		60E3264C207DC71700D0B802 /* GachTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E32650207DC71700D0B802 /* GachTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachTechUITests.swift; sourceTree = "<group>"; };
 		60E32652207DC71700D0B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E3265E207DC73600D0B802 /* GachaResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GachaResources; sourceTree = "<group>"; };
+		60E32660207DD3D500D0B802 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		60E32624207DC71600D0B802 = {
 			isa = PBXGroup;
 			children = (
+				60E3265E207DC73600D0B802 /* GachaResources */,
 				60E3262F207DC71600D0B802 /* GachTech */,
 				60E32644207DC71700D0B802 /* GachTechTests */,
 				60E3264F207DC71700D0B802 /* GachTechUITests */,
@@ -100,6 +105,7 @@
 				60E32630207DC71600D0B802 /* AppDelegate.swift */,
 				60E32632207DC71600D0B802 /* ViewController.swift */,
 				60E32634207DC71600D0B802 /* Main.storyboard */,
+				60E32660207DD3D500D0B802 /* ResultViewController.swift */,
 				60E32637207DC71700D0B802 /* Assets.xcassets */,
 				60E32639207DC71700D0B802 /* LaunchScreen.storyboard */,
 				60E3263C207DC71700D0B802 /* Info.plist */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E3263B207DC71700D0B802 /* LaunchScreen.storyboard in Resources */,
+				60E3265F207DC73700D0B802 /* GachaResources in Resources */,
 				60E32638207DC71700D0B802 /* Assets.xcassets in Resources */,
 				60E32636207DC71600D0B802 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +265,7 @@
 			files = (
 				60E32633207DC71600D0B802 /* ViewController.swift in Sources */,
 				60E32631207DC71600D0B802 /* AppDelegate.swift in Sources */,
+				60E32661207DD3D500D0B802 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
