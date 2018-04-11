@@ -1,6 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:.."
+      name = "..">
+      <Group
+         location = "group:GachTechUITests"
+         name = "GachTechUITests">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:GachTechUITests.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:GachaResources"
+         name = "GachaResources">
+         <Group
+            location = "group:background"
+            name = "background">
+            <FileRef
+               location = "group:bg_blue@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:bg_gold@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:gacha@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:bg_red@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:monster"
+            name = "monster">
+            <FileRef
+               location = "group:monster005.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster010.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster004.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster006.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster007.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster003.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster002.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster001.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster009.png">
+            </FileRef>
+            <FileRef
+               location = "group:monster008.png">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:GachTech.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:GachTech"
+         name = "GachTech">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ResultViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:GachTechTests"
+         name = "GachTechTests">
+         <FileRef
+            location = "group:GachTechTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "self:GachTech.xcodeproj">
    </FileRef>
